@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Simple Web Weather App with Nodejs</title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <form action="/" method="post">
+    <input name="city" type="text" class="app-input" placeholder="Enter a city" required>
+    <button type="submit" class="app-button">++ Get Weather ++</button>
+  </form>
+
+  <% if(weather !== null){ %>
+    <p><%= weather %></p>
+  <% } %>
+
+  <% if(error !== null){ %>
+    <p><%= error %></p>
+  <% } %>
+</body>
+
+</html>

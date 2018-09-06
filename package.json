@@ -1,0 +1,19 @@
+{
+  "name": "simple-web-weather-app",
+  "version": "1.0.0",
+  "description": "Simple Web Weather App with Nodejs",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "ejs": "^2.6.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Nelsie Borja",
+  "license": "ISC"
+}
